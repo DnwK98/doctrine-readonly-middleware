@@ -1,0 +1,21 @@
+{
+    "name": "dnwk/doctrine-readonly-middleware",
+    "version": "0.0.1",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dnwk\\DoctrineReadonlyMiddleware\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dnwk\\DoctrineReadonlyMiddleware\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "doctrine/orm": "2.*",
+        "doctrine/doctrine-bundle": "2.*"
+    }
+}
